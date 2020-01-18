@@ -30,6 +30,10 @@ const config = {
                     },
                 ],
             },
+            {
+                test: /\.ts$/,
+                exclude: /misc/,
+            },
         ],
     },
 }
